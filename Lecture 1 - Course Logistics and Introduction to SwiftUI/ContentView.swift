@@ -15,12 +15,16 @@ struct ContentView: View {
         CardView(isFaceUp: false)
       }
     }
+      // These modifiers are applied to all views inside the HStack.
       .padding()
       .foregroundColor(Color.orange)
       .font(Font.largeTitle)
   }
 }
 
+/**
+ Entire card view for the Memorize game.
+ */
 struct CardView: View {
   var isFaceUp: Bool
 
@@ -29,7 +33,7 @@ struct CardView: View {
       if isFaceUp {
         RoundedRectangle(cornerRadius: 10.0).fill(Color.white)
         RoundedRectangle(cornerRadius: 10.0).stroke(lineWidth: 3.0)
-        Text("👻")
+        Text("👻") // Edit -> Emoji's & Symbols.
       } else {
         RoundedRectangle(cornerRadius: 10.0).fill()
       }
