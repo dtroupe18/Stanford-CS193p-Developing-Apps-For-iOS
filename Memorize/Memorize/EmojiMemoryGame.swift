@@ -17,9 +17,17 @@ final class EmojiMemoryGame {
 
   static func createMemoryGame() -> MemoryGame<String> {
     // Edit -> Emoji's & Symbols.
-    let emojis = ["👻", "🎃", "🕷"]
+    var emojis = ["👻", "🎃", "🙀", "💀", "😱", "☠️", "🦇", "😈", "🍭", "🕷", "🕸", "🧡"]
 
-    return MemoryGame<String>(numberOfPairsOfCards: emojis.count) { pairIndex in
+    // Have your game start up with a random number of pairs of cards between 2 pairs and 5 pairs.
+    return MemoryGame<String>(numberOfPairsOfCards: Int.random(in: 2...5)) { pairIndex in
+      // EXTRA CREDIT:
+      // Have the emoji on your cards be randomly chosen from a larger set of emoji
+      // (at least a dozen). In other words, don’t always use the same five emoji in every game.
+      let randomEmoji = emojis.randomElement()! // This is only nil if the collection is empty.
+      let index = emojis.firstIndex(of: randomEmoji)! // This can't be nil since we look it from the collection.
+      emojis.remove(at: index) // Prevent the same emoji from getting selected again.
+
       return emojis[pairIndex]
     }
   }

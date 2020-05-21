@@ -28,12 +28,18 @@ struct MemoryGame<CardContent> {
       cards.append(Card(content: content, id: pairIndex * 2))
       cards.append(Card(content: content, id: pairIndex * 2 + 1))
     }
+
+    // Assignment 1
+    // Currently the cards appear in a predictable order
+    // (the matches are always side-by-side, making the game very easy).
+    // Shuffle the cards.
+    cards.shuffle() // Shuffles the collection in place.
   }
 
   // Nesting structs is mainly a name spacing thing. This is really
   // MemoryGame.Card so we know this isn't another type of Card.
   struct Card: Identifiable {
-    var isFaceUp: Bool = false
+    var isFaceUp: Bool = true
     var isMatched: Bool = false
 
     // Generic, type is declared when MemoryGame is instantiated.
