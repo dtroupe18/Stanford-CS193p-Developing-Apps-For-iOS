@@ -1,5 +1,16 @@
 ## Lecture 2
 
+## Slides
+
+<img src="Lecture%202%20-%20MVVM%20and%20the%20Swift%20Type%20System/Slides/MVVM.png" width="660" height="373">
+
+
+<img src="Lecture%202%20-%20MVVM%20and%20the%20Swift%20Type%20System/Slides/Functions%20as%20Types.png" width="598" height="344">
+
+
+<img src="Lecture%202%20-%20MVVM%20and%20the%20Swift%20Type%20System/Slides/struct%20vs%20class.png" width="580" height="321">
+
+
 ## Code
 
 ### ContentView
