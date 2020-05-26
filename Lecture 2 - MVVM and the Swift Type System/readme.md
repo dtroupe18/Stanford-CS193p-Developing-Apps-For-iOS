@@ -1,5 +1,7 @@
 ## Lecture 2
 
+[Video](https://www.youtube.com/watch?v=4GjXq2Sr55Q)
+
 ## Slides
 
 <img src="https://github.com/dtroupe18/Stanford-CS193p-Developing-Apps-For-iOS/blob/master/Lecture%202%20-%20MVVM%20and%20the%20Swift%20Type%20System/Slides/MVVM.png" width="660" height="373">
