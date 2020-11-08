@@ -17,6 +17,7 @@
 
 ### ContentView
 
+```swift
     import SwiftUI
 
     struct ContentView: View {
@@ -61,11 +62,13 @@
         ContentView(viewModel: EmojiMemoryGame())
       }
     }
+```
 
 
 ### EmojiMemoryGame
 
-    import SwiftUI
+```swift
+import SwiftUI
 
     // This is a class because lots of views will need access this model which
     // means we want to use a class so they can share a pointer to this model.
@@ -95,11 +98,13 @@
         model.choose(card: card)
       }
     }
+```
 
 
 ### MemoryGame
 
-    import Foundation
+```swift
+import Foundation
 
     struct MemoryGame<CardContent> {
       var cards: Array<Card>
@@ -135,11 +140,13 @@
         var id: Int
       }
     }
+```
 
 
 ### SceneDelegate
 
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+```swift
+func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
       // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
       // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
       // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
@@ -156,4 +163,5 @@
           window.makeKeyAndVisible()
       }
     }
+```
 
