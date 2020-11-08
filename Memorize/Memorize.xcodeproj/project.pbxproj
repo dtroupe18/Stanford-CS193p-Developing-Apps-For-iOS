@@ -15,6 +15,7 @@
 		550AC78C2475D0BD0022D401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550AC78A2475D0BD0022D401 /* LaunchScreen.storyboard */; };
 		55398C272475FB120067A59F /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55398C262475FB120067A59F /* MemoryGame.swift */; };
 		55398C292475FD580067A59F /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55398C282475FD580067A59F /* EmojiMemoryGame.swift */; };
+		554E11A92558919200F56A6D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554E11A82558919200F56A6D /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		550AC78D2475D0BD0022D401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55398C262475FB120067A59F /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		55398C282475FD580067A59F /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		554E11A82558919200F56A6D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				550AC77F2475D0BC0022D401 /* AppDelegate.swift */,
 				550AC7812475D0BC0022D401 /* SceneDelegate.swift */,
 				550AC7832475D0BC0022D401 /* ContentView.swift */,
+				554E11A82558919200F56A6D /* CardView.swift */,
 				55398C282475FD580067A59F /* EmojiMemoryGame.swift */,
 				55398C262475FB120067A59F /* MemoryGame.swift */,
 				550AC7852475D0BD0022D401 /* Assets.xcassets */,
@@ -108,7 +111,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = DavidTroupe;
 				TargetAttributes = {
 					550AC77B2475D0BC0022D401 = {
@@ -156,6 +159,7 @@
 				550AC7822475D0BC0022D401 /* SceneDelegate.swift in Sources */,
 				55398C272475FB120067A59F /* MemoryGame.swift in Sources */,
 				550AC7842475D0BC0022D401 /* ContentView.swift in Sources */,
+				554E11A92558919200F56A6D /* CardView.swift in Sources */,
 				55398C292475FD580067A59F /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +204,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -260,6 +265,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
