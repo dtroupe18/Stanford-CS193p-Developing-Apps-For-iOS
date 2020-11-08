@@ -2,6 +2,7 @@
 
 ### Code
 
+```swift
     import SwiftUI
 
     struct ContentView: View {
@@ -42,4 +43,5 @@
         ContentView()
       }
     }
+```
 
