@@ -3,6 +3,7 @@
 ## Lecture 2
 
 [Video](https://www.youtube.com/watch?v=4GjXq2Sr55Q)
+
 [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l3_0.pdf)
 
 
